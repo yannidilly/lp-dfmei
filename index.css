@@ -1,0 +1,31 @@
+body {
+  --light: #f4dad0;
+  --white: #ffffff;
+  --dark: #08050b;
+  --primary: #9f2df7;
+  --secondary: #5d4950;
+  --info: #ff9f57;
+  --success: #00ab68;
+  --warning: #e1ce00;
+  --danger: #f02800;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+header img {
+  width: 60px;
+  height: 60px;
+  padding: 2px;
+}
+
+header p {
+  font-family: 'Lobster Two', sans-serif;
+  font-size: 28px;
+  color: var(--dark);
+}
