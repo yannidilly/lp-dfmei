@@ -9,6 +9,7 @@ body {
   --info: #ff955d;
 
   font-family: 'Roboto', sans-serif;
+  background-color: var(--light);
 }
 
 h1, h2, h3, h4, h5 {
@@ -71,4 +72,20 @@ header h1 {
   width: 50px;
   transform: rotate(-90deg);
   padding-bottom: 1em;
+}
+
+.identificacao {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.identificacao h2 {
+  text-align: center;
+  font-size: 30px;
+  color: var(--primary);
+}
+
+.identificacao p {
+  font-size: large;
+  line-height: 1.5em;
 }
