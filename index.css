@@ -8,6 +8,10 @@ body {
   --success: #00ab68;
   --warning: #e1ce00;
   --danger: #f02800;
+
+  --logo: 'Lobster Two', sans-serif;
+  --title: 'Changa', sans-serif;
+  --text: 'Merriweather', serif;
 }
 
 header {
@@ -24,8 +28,8 @@ header img {
   padding: 2px;
 }
 
-header p {
-  font-family: 'Lobster Two', sans-serif;
+header h1 {
+  font-family: var(--logo);
   font-size: 28px;
   color: var(--dark);
 }
