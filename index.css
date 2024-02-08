@@ -1,17 +1,22 @@
 body {
-  --light: #f4dad0;
-  --white: #ffffff;
-  --dark: #08050b;
-  --primary: #9f2df7;
-  --secondary: #5d4950;
-  --info: #ff9f57;
-  --success: #00ab68;
-  --warning: #e1ce00;
-  --danger: #f02800;
+  margin: 0;
+  padding: 0;
 
-  --logo: 'Lobster Two', sans-serif;
-  --title: 'Changa', sans-serif;
-  --text: 'Merriweather', serif;
+  --light: #f4f4f4;
+  --dark: #442843;
+  --primary: #6c3c68;
+  --secondary: #ffd54a;
+  --info: #ff955d;
+
+  font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: var(--title);
+}
+
+p {
+  font-family: var(--text);
 }
 
 header {
@@ -20,6 +25,7 @@ header {
   justify-content: center;
   align-items: center;
   gap: 5px;
+  padding: 10px;
 }
 
 header img {
@@ -29,7 +35,40 @@ header img {
 }
 
 header h1 {
-  font-family: var(--logo);
+  font-family: 'Lobster Two', sans-serif;
   font-size: 28px;
   color: var(--dark);
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-color: var(--dark);
+  min-height: 75vh;
+  border: 1px solid var(--dark);
+}
+
+.hero .text h2 {
+  margin: 0;
+  color: var(--secondary);
+  text-align: center;
+  padding: 20px;
+  font-size: 40px;
+}
+
+.hero .text p {
+  margin: 0;
+  color: var(--light);
+  text-align: center;
+  padding: 20px;
+  font-size: 28px;
+  line-height: 1.5em;
+}
+
+.hero img {
+  width: 50px;
+  transform: rotate(-90deg);
+  padding-bottom: 1em;
 }
