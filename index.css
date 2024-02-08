@@ -109,3 +109,30 @@ header h1 {
   line-height: 1.5em;
   color: var(--light);
 }
+
+.quem-sou-eu {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.quem-sou-eu h2 {
+  text-align: center;
+  font-size: 30px;
+  color: var(--primary);
+}
+
+.quem-sou-eu img {
+  width: 100%;
+  border-radius: 100%;
+}
+
+.quem-sou-eu h3 {
+  text-align: center;
+  color: var(--dark);
+  font-size: 24px;
+}
+
+.quem-sou-eu p {
+  font-size: large;
+  line-height: 1.5em;
+}
