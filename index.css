@@ -140,10 +140,40 @@ header h1 {
 .metodo h2 {
   text-align: center;
   font-size: 30px;
-  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .metodo img {
   width: calc(100vw - 20px);
   padding: 10px;
+}
+
+.lista-quebra-objecoes {
+  padding: 20px;
+  background-color: var(--dark);
+  color: var(--light);
+}
+
+.lista-quebra-objecoes h2 {
+  text-align: center;
+  font-size: 27px;
+  color: var(--secondary);
+}
+
+.lista-quebra-objecoes p, .lista-quebra-objecoes li {
+  font-size: large;
+  line-height: 1.5em;
+  color: var(--light);
+}
+
+.lista-quebra-objecoes ul {
+  margin-left: 0;
+  padding-left: 20px;
+  list-style: none;
+}
+
+.lista-quebra-objecoes ul li:before {
+  content: "✓";
+  padding-right: 5px;
 }
