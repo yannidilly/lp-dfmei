@@ -18,6 +18,8 @@ h1, h2, h3, h4, h5 {
 
 p {
   font-family: var(--text);
+  font-size: large;
+  line-height: 1.5em;
 }
 
 header {
@@ -229,12 +231,15 @@ header h1 {
 }
 
 .detalhes-curso a {
+  margin-top: 20px;
+  margin-bottom: 10px;
   color: var(--secondary);
   text-decoration: none;
   text-transform: uppercase;
+  font-weight: 600;
   align-self: center;
   border: 3px solid var(--secondary);
-  padding: 12px;
+  padding: 10px;
   padding-left: 25px;
   padding-right: 25px;
   border-radius: 50px 50px 50px 50px;
@@ -246,6 +251,69 @@ header h1 {
 }
 
 .detalhes-curso a .link-internal-div img {
+  width: 25px;
+  height: 25px;
+  padding-left: 6px;
+}
+
+.outros-entregaveis {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.outros-entregaveis p:first-child {
+  font-size: 20px;
+}
+
+.outros-entregaveis h2 {
+  font-size: 30px;
+  text-align: center;
+  color: var(--info);
+  display: flex;
+  flex-direction: column;
+}
+
+.outros-entregaveis .div-planilhas {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.outros-entregaveis .div-planilhas .div-cada-planilha img {
+  width: 100px;
+  height: 100px;
+}
+
+.outros-entregaveis .div-planilhas .div-cada-planilha {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.outros-entregaveis a {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: var(--primary);
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 600;
+  align-self: center;
+  border: 3px solid var(--primary);
+  padding: 10px;
+  padding-left: 25px;
+  padding-right: 25px;
+  border-radius: 50px 50px 50px 50px;
+}
+
+.outros-entregaveis a .link-internal-div {
+  display: flex;
+  align-items: center;
+}
+
+.outros-entregaveis a .link-internal-div img {
   width: 25px;
   height: 25px;
   padding-left: 6px;
