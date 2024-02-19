@@ -342,3 +342,53 @@ header h1 {
   transform: rotate(-90deg);
   padding-bottom: 1em;
 }
+
+#oferta {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#oferta img {
+  max-width: 98vw;
+  text-align: center;
+}
+
+#oferta a {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: var(--primary);
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 600;
+  align-self: center;
+  border: 3px solid var(--primary);
+  padding: 10px;
+  padding-left: 25px;
+  padding-right: 25px;
+  border-radius: 50px 50px 50px 50px;
+}
+
+#oferta a .link-internal-div {
+  display: flex;
+  align-items: center;
+}
+
+#oferta a .link-internal-div img {
+  width: 25px;
+  height: 25px;
+  padding-left: 6px;
+}
+
+.por-dentro-do-curso {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.por-dentro-do-curso iframe {
+  width: 98vw;
+  height: 55vw;
+}
