@@ -318,3 +318,27 @@ header h1 {
   height: 25px;
   padding-left: 6px;
 }
+
+.ancorar-valor {
+  padding: 20px;
+  background-color: var(--dark);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ancorar-valor h2 {
+  text-align: center;
+  color: var(--secondary);
+  font-size: 32px;
+}
+
+.ancorar-valor p {
+  color: var(--light);
+}
+
+.ancorar-valor img {
+  width: 50px;
+  transform: rotate(-90deg);
+  padding-bottom: 1em;
+}
