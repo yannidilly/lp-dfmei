@@ -9,6 +9,7 @@ body {
   --info: #ff955d;
 
   font-family: 'Roboto', sans-serif;
+  background-color: var(--light);
 }
 
 h1, h2, h3, h4, h5 {
@@ -17,6 +18,8 @@ h1, h2, h3, h4, h5 {
 
 p {
   font-family: var(--text);
+  font-size: large;
+  line-height: 1.5em;
 }
 
 header {
@@ -71,4 +74,385 @@ header h1 {
   width: 50px;
   transform: rotate(-90deg);
   padding-bottom: 1em;
+}
+
+.identificacao {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.identificacao h2 {
+  text-align: center;
+  font-size: 30px;
+  color: var(--primary);
+}
+
+.identificacao p {
+  font-size: large;
+  line-height: 1.5em;
+}
+
+.prova {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  background-color: var(--dark);
+}
+
+.prova h2 {
+  text-align: center;
+  font-size: 27px;
+  color: var(--secondary);
+  padding-top: 30px;
+}
+
+.prova p {
+  font-size: large;
+  line-height: 1.5em;
+  color: var(--light);
+}
+
+.quem-sou-eu {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.quem-sou-eu h2 {
+  text-align: center;
+  font-size: 30px;
+  color: var(--primary);
+}
+
+.quem-sou-eu img {
+  width: 100%;
+  border-radius: 100%;
+}
+
+.quem-sou-eu h3 {
+  text-align: center;
+  color: var(--dark);
+  font-size: 24px;
+}
+
+.quem-sou-eu p {
+  font-size: large;
+  line-height: 1.5em;
+}
+
+.metodo h2 {
+  text-align: center;
+  font-size: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: var(--info);
+}
+
+.metodo img {
+  width: calc(100vw - 20px);
+  padding: 10px;
+}
+
+.lista-quebra-objecoes {
+  padding: 20px;
+  background-color: var(--dark);
+  color: var(--light);
+}
+
+.lista-quebra-objecoes h2 {
+  text-align: center;
+  font-size: 27px;
+  color: var(--secondary);
+}
+
+.lista-quebra-objecoes p, .lista-quebra-objecoes li {
+  font-size: large;
+  line-height: 1.5em;
+  color: var(--light);
+}
+
+.lista-quebra-objecoes ul {
+  margin-left: 0;
+  padding-left: 20px;
+  list-style: none;
+}
+
+.lista-quebra-objecoes ul li:before {
+  content: "✓";
+  padding-right: 5px;
+}
+
+.apresencacao-curso {
+  padding: 20px;
+}
+
+.apresencacao-curso h2 {
+  font-size: 32px;
+  text-align: center;
+  color: var(--primary);
+}
+
+.apresencacao-curso h3 {
+  font-size: 24px;
+  text-align: center;
+  color: var(--info);
+}
+
+.apresencacao-curso p {
+  font-size: large;
+  line-height: 1.5em;
+}
+
+.detalhes-curso {
+  padding: 20px;
+  background-color: var(--dark);
+  color: var(--light);
+  display: flex;
+  flex-direction: column;
+}
+
+.detalhes-curso h2 {
+  font-size: 32px;
+  color: var(--secondary);
+}
+
+.detalhes-curso h3 {
+  font-size: 22px;
+}
+
+.detalhes-curso ul {
+  all: unset;
+  margin:0;
+  list-style: none;
+}
+
+.detalhes-curso ul li {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.detalhes-curso a {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: var(--secondary);
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 600;
+  align-self: center;
+  border: 3px solid var(--secondary);
+  padding: 10px;
+  padding-left: 25px;
+  padding-right: 25px;
+  border-radius: 50px 50px 50px 50px;
+}
+
+.detalhes-curso a .link-internal-div {
+  display: flex;
+  align-items: center;
+}
+
+.detalhes-curso a .link-internal-div img {
+  width: 25px;
+  height: 25px;
+  padding-left: 6px;
+}
+
+.outros-entregaveis {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.outros-entregaveis p:first-child {
+  font-size: 20px;
+}
+
+.outros-entregaveis h2 {
+  font-size: 30px;
+  text-align: center;
+  color: var(--info);
+  display: flex;
+  flex-direction: column;
+}
+
+.outros-entregaveis .div-planilhas {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.outros-entregaveis .div-planilhas .div-cada-planilha img {
+  width: 100px;
+  height: 100px;
+}
+
+.outros-entregaveis .div-planilhas .div-cada-planilha {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.outros-entregaveis a {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: var(--primary);
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 600;
+  align-self: center;
+  border: 3px solid var(--primary);
+  padding: 10px;
+  padding-left: 25px;
+  padding-right: 25px;
+  border-radius: 50px 50px 50px 50px;
+}
+
+.outros-entregaveis a .link-internal-div {
+  display: flex;
+  align-items: center;
+}
+
+.outros-entregaveis a .link-internal-div img {
+  width: 25px;
+  height: 25px;
+  padding-left: 6px;
+}
+
+.ancorar-valor {
+  padding: 20px;
+  background-color: var(--dark);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ancorar-valor h2 {
+  text-align: center;
+  color: var(--secondary);
+  font-size: 32px;
+}
+
+.ancorar-valor p {
+  color: var(--light);
+}
+
+.ancorar-valor img {
+  width: 50px;
+  transform: rotate(-90deg);
+  padding-bottom: 1em;
+}
+
+#oferta {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#oferta img {
+  max-width: 98vw;
+  text-align: center;
+}
+
+#oferta a {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: var(--primary);
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 600;
+  align-self: center;
+  border: 3px solid var(--primary);
+  padding: 10px;
+  padding-left: 25px;
+  padding-right: 25px;
+  border-radius: 50px 50px 50px 50px;
+}
+
+#oferta a .link-internal-div {
+  display: flex;
+  align-items: center;
+}
+
+#oferta a .link-internal-div img {
+  width: 25px;
+  height: 25px;
+  padding-left: 6px;
+}
+
+.por-dentro-do-curso {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.por-dentro-do-curso iframe {
+  width: 98vw;
+  height: 55vw;
+}
+
+.garantia {
+  padding: 20px;
+  background-color: var(--dark);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: var(--light);
+}
+
+.garantia img {
+  width: 80px;
+  height: 80px;
+}
+
+.garantia a {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: var(--secondary);
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 600;
+  align-self: center;
+  border: 3px solid var(--secondary);
+  padding: 10px;
+  padding-left: 25px;
+  padding-right: 25px;
+  border-radius: 50px 50px 50px 50px;
+}
+
+.garantia a .link-internal-div {
+  display: flex;
+  align-items: center;
+}
+
+.garantia a .link-internal-div img {
+  width: 25px;
+  height: 25px;
+  padding-left: 6px;
+}
+
+.faq {
+  padding: 20px;
+}
+
+.faq h2 {
+  font-size: 36px;
+  text-align: center;
+  color: var(--primary);
+}
+
+.faq details {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+footer {
+  border: 1px solid #201c20;
+  background-color: #201c20;
+}
+
+footer p {
+  font-size: 8px;
 }
