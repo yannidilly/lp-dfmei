@@ -477,3 +477,20 @@ footer p {
   margin-top: 10px;
   background-color: var(--light);
 }
+
+@media (min-width: 600px) {
+  .quem-sou-eu {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .quem-sou-eu img {
+    width: 20vw;
+    align-self: center;
+  }
+
+  .metodo img {
+    width: calc(98vw - 20px);
+    padding: 10px;
+  }
+}
