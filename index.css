@@ -489,8 +489,18 @@ footer p {
     align-self: center;
   }
 
+  .metodo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
   .metodo img {
-    width: calc(98vw - 20px);
+    width: 60vw;
     padding: 10px;
+  }
+
+  .lgpd {
+    width: 98vw;
   }
 }
