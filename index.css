@@ -199,3 +199,54 @@ header h1 {
   font-size: large;
   line-height: 1.5em;
 }
+
+.detalhes-curso {
+  padding: 20px;
+  background-color: var(--dark);
+  color: var(--light);
+  display: flex;
+  flex-direction: column;
+}
+
+.detalhes-curso h2 {
+  font-size: 32px;
+  color: var(--secondary);
+}
+
+.detalhes-curso h3 {
+  font-size: 22px;
+}
+
+.detalhes-curso ul {
+  all: unset;
+  margin:0;
+  list-style: none;
+}
+
+.detalhes-curso ul li {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.detalhes-curso a {
+  color: var(--secondary);
+  text-decoration: none;
+  text-transform: uppercase;
+  align-self: center;
+  border: 3px solid var(--secondary);
+  padding: 12px;
+  padding-left: 25px;
+  padding-right: 25px;
+  border-radius: 50px 50px 50px 50px;
+}
+
+.detalhes-curso a .link-internal-div {
+  display: flex;
+  align-items: center;
+}
+
+.detalhes-curso a .link-internal-div img {
+  width: 25px;
+  height: 25px;
+  padding-left: 6px;
+}
