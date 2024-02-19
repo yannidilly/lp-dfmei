@@ -392,3 +392,43 @@ header h1 {
   width: 98vw;
   height: 55vw;
 }
+
+.garantia {
+  padding: 20px;
+  background-color: var(--dark);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: var(--light);
+}
+
+.garantia img {
+  width: 80px;
+  height: 80px;
+}
+
+.garantia a {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: var(--secondary);
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 600;
+  align-self: center;
+  border: 3px solid var(--secondary);
+  padding: 10px;
+  padding-left: 25px;
+  padding-right: 25px;
+  border-radius: 50px 50px 50px 50px;
+}
+
+.garantia a .link-internal-div {
+  display: flex;
+  align-items: center;
+}
+
+.garantia a .link-internal-div img {
+  width: 25px;
+  height: 25px;
+  padding-left: 6px;
+}
