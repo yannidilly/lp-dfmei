@@ -81,7 +81,7 @@
     !function (f, b, e, v, n, t, s) {
       if (f.fbq) return; n = f.fbq = function () {
         n.callMethod ?
-        n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+          n.callMethod.apply(n, arguments) : n.queue.push(arguments)
       };
       if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
       n.queue = []; t = b.createElement(e); t.async = !0;
@@ -95,6 +95,21 @@
   <noscript><img height="1" width="1" style="display:none"
       src="https://www.facebook.com/tr?id=1478535456071582&ev=PageView&noscript=1" /></noscript>
   <!-- End Meta Pixel Code -->
+
+
+  <!-- Analytics Hotmart -->
+  <script id="hotmart_launcher_script">
+    (function (l, a, u, n, c, h, e, r) {
+      l['HotmartLauncherObject'] = c; l[c] = l[c] || function () {
+        (l[c].q = l[c].q || []).push(arguments)
+      }, l[c].l = 1 * new Date(); h = a.createElement(u),
+        e = a.getElementsByTagName(u)[0]; h.async = 1; h.src = n; e.parentNode.insertBefore(h, e)
+    })(window, document, 'script', '//launcher.hotmart.com/launcher.js', 'hot');
+
+    hot('account', 'bfd95b1b-ed9c-3579-bc6b-9dea384829a4');
+  </script>
+  <!-- End Analytics Hotmart -->
+
 
 </head>
 
