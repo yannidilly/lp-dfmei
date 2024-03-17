@@ -39,7 +39,7 @@ header img {
 
 header h1 {
   font-family: 'Lobster Two', sans-serif;
-  font-size: 28px;
+  font-size: 20px;
   color: var(--dark);
 }
 
@@ -58,7 +58,7 @@ header h1 {
   color: var(--secondary);
   text-align: center;
   padding: 20px;
-  font-size: 40px;
+  font-size: 32px;
 }
 
 .hero .text p {
@@ -66,13 +66,12 @@ header h1 {
   color: var(--light);
   text-align: center;
   padding: 20px;
-  font-size: 28px;
+  font-size: 25px;
   line-height: 1.5em;
 }
 
 .hero img {
-  width: 50px;
-  transform: rotate(-90deg);
+  width: 200px;
   padding-bottom: 1em;
 }
 
