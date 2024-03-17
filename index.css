@@ -92,17 +92,26 @@ header h1 {
 }
 
 .prova {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   padding-left: 20px;
   padding-right: 20px;
   padding-bottom: 10px;
   background-color: var(--dark);
 }
 
+.prova img {
+  margin-top: 10px;
+  width: 250px;
+}
+
 .prova h2 {
   text-align: center;
-  font-size: 27px;
+  font-size: 25px;
   color: var(--secondary);
   padding-top: 30px;
+  margin: 0;
 }
 
 .prova p {
