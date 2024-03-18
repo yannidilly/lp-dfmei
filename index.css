@@ -201,22 +201,18 @@ header h1 {
 }
 
 .apresencacao-curso {
+  background-color: var(--dark);
   padding: 20px;
 }
 
 .apresencacao-curso h2 {
-  font-size: 32px;
+  font-size: 25px;
   text-align: center;
-  color: var(--primary);
-}
-
-.apresencacao-curso h3 {
-  font-size: 24px;
-  text-align: center;
-  color: var(--info);
+  color: var(--light);
 }
 
 .apresencacao-curso p {
+  color: var(--light);
   font-size: large;
   line-height: 1.5em;
 }
