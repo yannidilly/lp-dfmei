@@ -379,22 +379,50 @@ header h1 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: var(--dark);
+  color: var(--light);
+  padding: 10px 0;
 }
 
-#oferta img {
-  max-width: 98vw;
-  text-align: center;
+#oferta .preco {
+  display: flex;
+  flex-direction: column;
 }
+
+#oferta .preco p {
+  padding: 5px 0;
+  margin: 0 40px;
+}
+
+#p1, #p3 {
+  font-size: 22px;
+}
+
+#p2 {
+  font-size: 25px;
+  align-self: center;
+}
+
+#p4 {
+  font-size: 30px;
+  align-self: center;
+}
+
+#p5 {
+  font-size: 18px;
+  align-self: center;
+}
+
 
 #oferta a {
   margin-top: 20px;
   margin-bottom: 10px;
-  color: var(--primary);
+  color: var(--secondary);
   text-decoration: none;
   text-transform: uppercase;
   font-weight: 600;
   align-self: center;
-  border: 3px solid var(--primary);
+  border: 3px solid var(--secondary);
   padding: 10px;
   padding-left: 25px;
   padding-right: 25px;
