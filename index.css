@@ -359,7 +359,6 @@ header h1 {
 
 .ancorar-valor {
   padding: 20px;
-  background-color: var(--dark);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -367,18 +366,12 @@ header h1 {
 
 .ancorar-valor h2 {
   text-align: center;
-  color: var(--secondary);
-  font-size: 32px;
-}
-
-.ancorar-valor p {
-  color: var(--light);
+  color: var(--primary);
+  font-size: 22px;
 }
 
 .ancorar-valor img {
-  width: 50px;
-  transform: rotate(-90deg);
-  padding-bottom: 1em;
+  width: calc(98vw - 20px)
 }
 
 #oferta {
