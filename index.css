@@ -39,7 +39,7 @@ header img {
 
 header h1 {
   font-family: 'Lobster Two', sans-serif;
-  font-size: 28px;
+  font-size: 20px;
   color: var(--dark);
 }
 
@@ -58,7 +58,7 @@ header h1 {
   color: var(--secondary);
   text-align: center;
   padding: 20px;
-  font-size: 40px;
+  font-size: 32px;
 }
 
 .hero .text p {
@@ -66,13 +66,12 @@ header h1 {
   color: var(--light);
   text-align: center;
   padding: 20px;
-  font-size: 28px;
+  font-size: 25px;
   line-height: 1.5em;
 }
 
 .hero img {
-  width: 50px;
-  transform: rotate(-90deg);
+  width: 200px;
   padding-bottom: 1em;
 }
 
@@ -93,17 +92,26 @@ header h1 {
 }
 
 .prova {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   padding-left: 20px;
   padding-right: 20px;
   padding-bottom: 10px;
   background-color: var(--dark);
 }
 
+.prova img {
+  margin-top: 10px;
+  width: 250px;
+}
+
 .prova h2 {
   text-align: center;
-  font-size: 27px;
+  font-size: 25px;
   color: var(--secondary);
   padding-top: 30px;
+  margin: 0;
 }
 
 .prova p {
@@ -113,6 +121,9 @@ header h1 {
 }
 
 .quem-sou-eu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   padding-left: 20px;
   padding-right: 20px;
 }
@@ -124,8 +135,7 @@ header h1 {
 }
 
 .quem-sou-eu img {
-  width: 100%;
-  border-radius: 100%;
+  width: 85%;
 }
 
 .quem-sou-eu h3 {
@@ -139,35 +149,44 @@ header h1 {
   line-height: 1.5em;
 }
 
+.metodo {
+  background-color: var(--dark);
+  padding: 10px;
+}
+
 .metodo h2 {
   text-align: center;
-  font-size: 30px;
+  font-size: 25px;
   padding-left: 20px;
   padding-right: 20px;
-  color: var(--info);
+  color: var(--secondary)
 }
 
 .metodo img {
   width: calc(100vw - 20px);
-  padding: 10px;
+}
+
+.metodo h3 {
+  color: var(--light);
+}
+
+.metodo p {
+  color: var(--light);
 }
 
 .lista-quebra-objecoes {
   padding: 20px;
-  background-color: var(--dark);
-  color: var(--light);
 }
 
 .lista-quebra-objecoes h2 {
   text-align: center;
   font-size: 27px;
-  color: var(--secondary);
+  color: var(--primary);
 }
 
 .lista-quebra-objecoes p, .lista-quebra-objecoes li {
   font-size: large;
   line-height: 1.5em;
-  color: var(--light);
 }
 
 .lista-quebra-objecoes ul {
@@ -182,41 +201,58 @@ header h1 {
 }
 
 .apresencacao-curso {
+  background-color: var(--dark);
   padding: 20px;
 }
 
 .apresencacao-curso h2 {
-  font-size: 32px;
+  font-size: 25px;
   text-align: center;
-  color: var(--primary);
-}
-
-.apresencacao-curso h3 {
-  font-size: 24px;
-  text-align: center;
-  color: var(--info);
+  color: var(--light);
 }
 
 .apresencacao-curso p {
+  color: var(--light);
   font-size: large;
   line-height: 1.5em;
 }
 
 .detalhes-curso {
-  padding: 20px;
-  background-color: var(--dark);
-  color: var(--light);
+  padding: 10px;
   display: flex;
   flex-direction: column;
 }
 
 .detalhes-curso h2 {
-  font-size: 32px;
-  color: var(--secondary);
+  font-size: 22px;
+  color: var(--primary);
+  align-self: center;
+}
+
+.detalhes-curso #dfmei-logo {
+  font-family: "Rosarivo", cursive;
+  font-style: italic;
+  font-size: 18px;
+  color: var(--dark);
+  align-self: center;
 }
 
 .detalhes-curso h3 {
   font-size: 22px;
+}
+
+.topico-curso {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 10px;
+}
+
+.topico-curso img {
+  width: 20vw;
+  height: 20vw;
 }
 
 .detalhes-curso ul {
@@ -233,12 +269,12 @@ header h1 {
 .detalhes-curso a {
   margin-top: 20px;
   margin-bottom: 10px;
-  color: var(--secondary);
+  color: var(--primary);
   text-decoration: none;
   text-transform: uppercase;
   font-weight: 600;
   align-self: center;
-  border: 3px solid var(--secondary);
+  border: 3px solid var(--primary);
   padding: 10px;
   padding-left: 25px;
   padding-right: 25px;
@@ -257,6 +293,8 @@ header h1 {
 }
 
 .outros-entregaveis {
+  background-color: var(--dark);
+  color: var(--light);
   padding: 20px;
   display: flex;
   flex-direction: column;
@@ -268,9 +306,9 @@ header h1 {
 }
 
 .outros-entregaveis h2 {
-  font-size: 30px;
+  font-size: 25px;
   text-align: center;
-  color: var(--info);
+  color: var(--secondary);
   display: flex;
   flex-direction: column;
 }
@@ -296,12 +334,12 @@ header h1 {
 .outros-entregaveis a {
   margin-top: 20px;
   margin-bottom: 10px;
-  color: var(--primary);
+  color: var(--secondary);
   text-decoration: none;
   text-transform: uppercase;
   font-weight: 600;
   align-self: center;
-  border: 3px solid var(--primary);
+  border: 3px solid var(--secondary);
   padding: 10px;
   padding-left: 25px;
   padding-right: 25px;
@@ -321,7 +359,6 @@ header h1 {
 
 .ancorar-valor {
   padding: 20px;
-  background-color: var(--dark);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -329,18 +366,12 @@ header h1 {
 
 .ancorar-valor h2 {
   text-align: center;
-  color: var(--secondary);
-  font-size: 32px;
-}
-
-.ancorar-valor p {
-  color: var(--light);
+  color: var(--primary);
+  font-size: 22px;
 }
 
 .ancorar-valor img {
-  width: 50px;
-  transform: rotate(-90deg);
-  padding-bottom: 1em;
+  width: calc(98vw - 20px)
 }
 
 #oferta {
@@ -348,22 +379,50 @@ header h1 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: var(--dark);
+  color: var(--light);
+  padding: 10px 0;
 }
 
-#oferta img {
-  max-width: 98vw;
-  text-align: center;
+#oferta .preco {
+  display: flex;
+  flex-direction: column;
 }
+
+#oferta .preco p {
+  padding: 5px 0;
+  margin: 0 40px;
+}
+
+#p1, #p3 {
+  font-size: 22px;
+}
+
+#p2 {
+  font-size: 25px;
+  align-self: center;
+}
+
+#p4 {
+  font-size: 30px;
+  align-self: center;
+}
+
+#p5 {
+  font-size: 18px;
+  align-self: center;
+}
+
 
 #oferta a {
   margin-top: 20px;
   margin-bottom: 10px;
-  color: var(--primary);
+  color: var(--secondary);
   text-decoration: none;
   text-transform: uppercase;
   font-weight: 600;
   align-self: center;
-  border: 3px solid var(--primary);
+  border: 3px solid var(--secondary);
   padding: 10px;
   padding-left: 25px;
   padding-right: 25px;
@@ -383,9 +442,21 @@ header h1 {
 
 .por-dentro-do-curso {
   display: flex;
+  flex-direction: column;
+  align-items: center;
   justify-content: center;
   margin-top: 20px;
   margin-bottom: 20px;
+  padding: 0 20px;
+}
+
+.por-dentro-do-curso h2 {
+  color: var(--primary);
+  margin: 5px;
+}
+
+.por-dentro-do-curso p {
+  margin: 0 0 20px 0;
 }
 
 .por-dentro-do-curso iframe {
@@ -446,6 +517,38 @@ header h1 {
 .faq details {
   margin-top: 20px;
   margin-bottom: 20px;
+}
+
+.mais-duvidas {
+  display: flex;
+  flex-direction: column;
+  padding: 30px 10px;
+  background-color: var(--dark);
+  color: var(--light);
+}
+
+.mais-duvidas h2 {
+  color: var(--secondary);
+  font-size: 22px;
+  text-align: center;
+}
+
+.mais-duvidas a {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-decoration: none;
+  border: 2px solid green;
+  border-radius: 100px;
+  padding: 10px 20px;
+  background-color: green;
+  color: var(--light);
+  font-size: 18px;
+}
+
+.mais-duvidas img {
+  width: 25px;
+  padding: 0 40px 0px 25px;
 }
 
 footer {
