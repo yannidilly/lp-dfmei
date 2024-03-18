@@ -149,35 +149,44 @@ header h1 {
   line-height: 1.5em;
 }
 
+.metodo {
+  background-color: var(--dark);
+  padding: 10px;
+}
+
 .metodo h2 {
   text-align: center;
-  font-size: 30px;
+  font-size: 25px;
   padding-left: 20px;
   padding-right: 20px;
-  color: var(--info);
+  color: var(--secondary)
 }
 
 .metodo img {
   width: calc(100vw - 20px);
-  padding: 10px;
+}
+
+.metodo h3 {
+  color: var(--light);
+}
+
+.metodo p {
+  color: var(--light);
 }
 
 .lista-quebra-objecoes {
   padding: 20px;
-  background-color: var(--dark);
-  color: var(--light);
 }
 
 .lista-quebra-objecoes h2 {
   text-align: center;
   font-size: 27px;
-  color: var(--secondary);
+  color: var(--primary);
 }
 
 .lista-quebra-objecoes p, .lista-quebra-objecoes li {
   font-size: large;
   line-height: 1.5em;
-  color: var(--light);
 }
 
 .lista-quebra-objecoes ul {
