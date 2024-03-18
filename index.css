@@ -519,6 +519,38 @@ header h1 {
   margin-bottom: 20px;
 }
 
+.mais-duvidas {
+  display: flex;
+  flex-direction: column;
+  padding: 30px 10px;
+  background-color: var(--dark);
+  color: var(--light);
+}
+
+.mais-duvidas h2 {
+  color: var(--secondary);
+  font-size: 22px;
+  text-align: center;
+}
+
+.mais-duvidas a {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-decoration: none;
+  border: 2px solid green;
+  border-radius: 100px;
+  padding: 10px 20px;
+  background-color: green;
+  color: var(--light);
+  font-size: 18px;
+}
+
+.mais-duvidas img {
+  width: 25px;
+  padding: 0 40px 0px 25px;
+}
+
 footer {
   border: 1px solid #201c20;
   background-color: #201c20;
