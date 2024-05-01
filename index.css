@@ -399,8 +399,6 @@ header h1 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: var(--dark);
-  color: var(--light);
   padding: 10px 0;
 }
 
@@ -433,16 +431,34 @@ header h1 {
   align-self: center;
 }
 
+#oferta #tabela-ancoragem {
+  padding: 10px;
+  width: calc(100vw - 20px);
+  
+}
+
+#oferta .lembrando {
+  padding: 20px;
+}
+
+#oferta .lembrando p {
+  font-size: 21px;
+}
+
+#oferta .lembrando #tempo-restante-2 {
+  text-align: center;
+  font-size: 25px;
+}
 
 #oferta a {
   margin-top: 20px;
   margin-bottom: 10px;
-  color: var(--secondary);
+  color: var(--primary);
   text-decoration: none;
   text-transform: uppercase;
   font-weight: 600;
   align-self: center;
-  border: 3px solid var(--secondary);
+  border: 3px solid var(--primary);
   padding: 10px;
   padding-left: 25px;
   padding-right: 25px;

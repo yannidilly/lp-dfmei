@@ -1,6 +1,7 @@
 const acceptCookiesButton = document.querySelector('#accept-cookies-button');
 const lgpdDiv = document.querySelector('.lgpd');
 const timerText = document.querySelector('#tempo-restante');
+const timerText2 = document.querySelector('#tempo-restante-2');
 
 function onAcceptCookiesButtonClick() {
   lgpdDiv.remove();
@@ -25,9 +26,11 @@ function createTimer() {
 
   if (hours === 0 && minutes === 0 && seconds === 0) {
     timerText.innerHTML = '0h 0m 0s - tempo esgotado';
+    timerText2.innerHTML = '0h 0m 0s - tempo esgotado';
   }
   else {
     timerText.innerHTML = hours + 'h ' + minutes + 'm ' + seconds + 's';
+    timerText2.innerHTML = hours + 'h ' + minutes + 'm ' + seconds + 's';
   }
 }
 
