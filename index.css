@@ -248,7 +248,7 @@ header h1 {
   padding-left: 6px;
 }
 
-.outros-entregaveis {
+.bonus {
   background-color: var(--dark);
   color: var(--light);
   padding: 20px;
@@ -257,37 +257,57 @@ header h1 {
   justify-content: center;
 }
 
-.outros-entregaveis p:first-child {
-  font-size: 20px;
+.bonus p:first-child {
+  font-size: 24px;
 }
 
-.outros-entregaveis h2 {
-  font-size: 25px;
+.bonus h2 {
+  font-size: 30px;
   text-align: center;
   color: var(--secondary);
   display: flex;
   flex-direction: column;
+  padding-bottom: 20px;
 }
 
-.outros-entregaveis .div-planilhas {
+.bonus p {
+  font-size: 18px;
+}
+
+.bonus .div-planilhas {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
 }
 
-.outros-entregaveis .div-planilhas .div-cada-planilha img {
+.bonus .div-planilhas .div-cada-planilha img {
   width: 100px;
   height: 100px;
 }
 
-.outros-entregaveis .div-planilhas .div-cada-planilha {
+.bonus .div-planilhas .div-cada-planilha {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.outros-entregaveis a {
+.bonus h3 {
+  font-size: 25px;
+  text-align: center;
+  color: var(--secondary);
+}
+
+.bonus .temporizador p {
+  font-size: 21px;
+}
+
+.bonus .temporizador #tempo-restante {
+  font-size: 25px;
+  text-align: center;
+}
+
+.bonus a {
   margin-top: 20px;
   margin-bottom: 10px;
   color: var(--secondary);
@@ -302,12 +322,12 @@ header h1 {
   border-radius: 50px 50px 50px 50px;
 }
 
-.outros-entregaveis a .link-internal-div {
+.bonus a .link-internal-div {
   display: flex;
   align-items: center;
 }
 
-.outros-entregaveis a .link-internal-div img {
+.bonus a .link-internal-div img {
   width: 25px;
   height: 25px;
   padding-left: 6px;
