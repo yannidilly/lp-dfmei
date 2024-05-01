@@ -364,19 +364,34 @@ header h1 {
 
 .ancorar-valor {
   padding: 20px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  background-color: var(--dark);
 }
 
 .ancorar-valor h2 {
   text-align: center;
-  color: var(--primary);
-  font-size: 22px;
+  color: var(--secondary);
+  font-size: 25px;
 }
 
 .ancorar-valor img {
   width: calc(98vw - 20px)
+}
+
+.ancorar-valor p, .ancorar-valor li {
+  color: var(--light);
+  font-size: 21px;
+  line-height: 1.8em;
+}
+
+.ancorar-valor ul {
+  margin-left: 0;
+  padding-left: 20px;
+  list-style: none;
+}
+
+.ancorar-valor ul li:before {
+  content: "✓";
+  padding-right: 5px;
 }
 
 #oferta {
