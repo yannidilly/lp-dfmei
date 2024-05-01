@@ -18,7 +18,6 @@ h1, h2, h3, h4, h5 {
 
 p {
   font-family: var(--text);
-  font-size: large;
   line-height: 1.5em;
 }
 
@@ -76,19 +75,24 @@ header h1 {
   padding-bottom: 1em;
 }
 
-.identificacao {
+.o-problema {
   padding-left: 20px;
   padding-right: 20px;
 }
 
-.identificacao h2 {
+.o-problema h2 {
   text-align: center;
   font-size: 30px;
   color: var(--primary);
 }
 
-.identificacao p {
-  font-size: large;
+.o-problema p {
+  font-size: 20px;
+  line-height: 1.5em;
+}
+
+.o-problema li {
+  font-size: 20px;
   line-height: 1.5em;
 }
 
