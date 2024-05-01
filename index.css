@@ -303,13 +303,13 @@ header h1 {
 }
 
 .bonus .temporizador #tempo-restante {
-  font-size: 25px;
+  font-size: 30px;
   text-align: center;
 }
 
 .bonus a {
   margin-top: 20px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   color: var(--secondary);
   text-decoration: none;
   text-transform: uppercase;
