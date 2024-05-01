@@ -182,36 +182,24 @@ header h1 {
   padding-right: 5px;
 }
 
-.apresencacao-curso {
-  background-color: var(--dark);
-  padding: 20px;
-}
-
-.apresencacao-curso h2 {
-  font-size: 25px;
-  text-align: center;
-  color: var(--light);
-}
-
-.apresencacao-curso p {
-  color: var(--light);
-  font-size: large;
-  line-height: 1.5em;
-}
-
-.detalhes-curso {
+.modulos {
   padding: 10px;
   display: flex;
   flex-direction: column;
 }
 
-.detalhes-curso h2 {
+.modulos h2 {
   font-size: 22px;
   color: var(--primary);
   align-self: center;
 }
 
-.detalhes-curso #dfmei-logo {
+.modulos p {
+  font-size: 18px;
+  padding: 20px;
+}
+
+.modulos #dfmei-logo {
   font-family: "Rosarivo", cursive;
   font-style: italic;
   font-size: 18px;
@@ -219,38 +207,24 @@ header h1 {
   align-self: center;
 }
 
-.detalhes-curso h3 {
+.modulos h3 {
   font-size: 22px;
 }
 
-.topico-curso {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  gap: 20px;
-  padding: 10px;
-}
-
-.topico-curso img {
-  width: 20vw;
-  height: 20vw;
-}
-
-.detalhes-curso ul {
+.modulos ul {
   all: unset;
   margin:0;
   list-style: none;
 }
 
-.detalhes-curso ul li {
+.modulos ul li {
   margin-top: 15px;
   margin-bottom: 15px;
 }
 
-.detalhes-curso a {
-  margin-top: 20px;
-  margin-bottom: 10px;
+.modulos a {
+  margin-top: 10px;
+  margin-bottom: 30px;
   color: var(--primary);
   text-decoration: none;
   text-transform: uppercase;
@@ -263,12 +237,12 @@ header h1 {
   border-radius: 50px 50px 50px 50px;
 }
 
-.detalhes-curso a .link-internal-div {
+.modulos a .link-internal-div {
   display: flex;
   align-items: center;
 }
 
-.detalhes-curso a .link-internal-div img {
+.modulos a .link-internal-div img {
   width: 25px;
   height: 25px;
   padding-left: 6px;
