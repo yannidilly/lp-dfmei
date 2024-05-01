@@ -126,58 +126,32 @@ header h1 {
   text-align: center;
 }
 
-.quem-sou-eu {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding-left: 20px;
-  padding-right: 20px;
-}
-
-.quem-sou-eu h2 {
-  text-align: center;
-  font-size: 30px;
-  color: var(--primary);
-}
-
-.quem-sou-eu img {
-  width: 85%;
-}
-
-.quem-sou-eu h3 {
-  text-align: center;
-  color: var(--dark);
-  font-size: 24px;
-}
-
-.quem-sou-eu p {
-  font-size: large;
-  line-height: 1.5em;
-}
-
 .metodo {
-  background-color: var(--dark);
-  padding: 10px;
+  background-color: var(--light);
+  padding: 5px;
 }
 
 .metodo h2 {
   text-align: center;
-  font-size: 25px;
-  padding-left: 20px;
-  padding-right: 20px;
-  color: var(--secondary)
+  font-size: 24px;
+  padding-left: 5px;
+  padding-right: 5px;
+  color: var(--primary);
 }
 
 .metodo img {
-  width: calc(100vw - 20px);
+  width: calc(100vw - 10px);
 }
 
 .metodo h3 {
-  color: var(--light);
+  font-size: 20px;
+  text-align: center;
+  color: var(--dark);
 }
 
 .metodo p {
-  color: var(--light);
+  font-size: 21px;
+  padding: 10px;
 }
 
 .lista-quebra-objecoes {
@@ -361,6 +335,35 @@ header h1 {
   width: 25px;
   height: 25px;
   padding-left: 6px;
+}
+
+.quem-sou-eu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.quem-sou-eu h2 {
+  text-align: center;
+  font-size: 30px;
+  color: var(--primary);
+}
+
+.quem-sou-eu img {
+  width: 85%;
+}
+
+.quem-sou-eu h3 {
+  text-align: center;
+  color: var(--dark);
+  font-size: 24px;
+}
+
+.quem-sou-eu p {
+  font-size: large;
+  line-height: 1.5em;
 }
 
 .ancorar-valor {
