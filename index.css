@@ -18,6 +18,7 @@ h1, h2, h3, h4, h5 {
 
 p {
   font-family: var(--text);
+  font-size: large;
   line-height: 1.5em;
 }
 
@@ -56,9 +57,8 @@ header h1 {
   margin: 0;
   color: var(--secondary);
   text-align: center;
-  padding: 10px;
-  padding-top: 45px;
-  font-size: 30px;
+  padding: 20px;
+  font-size: 32px;
 }
 
 .hero .text p {
@@ -66,7 +66,7 @@ header h1 {
   color: var(--light);
   text-align: center;
   padding: 20px;
-  font-size: 24px;
+  font-size: 25px;
   line-height: 1.5em;
 }
 
@@ -75,24 +75,19 @@ header h1 {
   padding-bottom: 1em;
 }
 
-.o-problema {
+.identificacao {
   padding-left: 20px;
   padding-right: 20px;
 }
 
-.o-problema h2 {
+.identificacao h2 {
   text-align: center;
   font-size: 30px;
   color: var(--primary);
 }
 
-.o-problema p {
-  font-size: 20px;
-  line-height: 1.5em;
-}
-
-.o-problema li {
-  font-size: 20px;
+.identificacao p {
+  font-size: large;
   line-height: 1.5em;
 }
 
@@ -102,12 +97,12 @@ header h1 {
   align-items: center;
   padding-left: 20px;
   padding-right: 20px;
-  padding-bottom: 50px;
+  padding-bottom: 10px;
   background-color: var(--dark);
 }
 
 .prova img {
-  margin-top: 20px;
+  margin-top: 10px;
   width: 250px;
 }
 
@@ -115,222 +110,14 @@ header h1 {
   text-align: center;
   font-size: 25px;
   color: var(--secondary);
-  padding-top: 10px;
+  padding-top: 30px;
   margin: 0;
 }
 
 .prova p {
-  font-size: 21px;
+  font-size: large;
   line-height: 1.5em;
   color: var(--light);
-  text-align: center;
-}
-
-.metodo {
-  background-color: var(--light);
-  padding: 5px;
-}
-
-.metodo h2 {
-  text-align: center;
-  font-size: 24px;
-  padding-left: 5px;
-  padding-right: 5px;
-  color: var(--primary);
-}
-
-.metodo img {
-  width: calc(100vw - 10px);
-}
-
-.metodo h3 {
-  font-size: 20px;
-  text-align: center;
-  color: var(--dark);
-}
-
-.metodo p {
-  font-size: 21px;
-  padding: 15px;
-}
-
-.o-que-vai-aprender {
-  background-color: var(--dark);
-  padding: 20px;
-}
-
-.o-que-vai-aprender h2 {
-  text-align: center;
-  font-size: 25px;
-  color: var(--secondary);
-}
-
-.o-que-vai-aprender p, .o-que-vai-aprender li {
-  color: var(--light);
-  font-size: 21px;
-  line-height: 1.8em;
-}
-
-.o-que-vai-aprender ul {
-  margin-left: 0;
-  padding-left: 20px;
-  list-style: none;
-}
-
-.o-que-vai-aprender ul li:before {
-  content: "✓";
-  padding-right: 5px;
-}
-
-.modulos {
-  padding: 10px;
-  display: flex;
-  flex-direction: column;
-}
-
-.modulos h2 {
-  font-size: 22px;
-  color: var(--primary);
-  align-self: center;
-}
-
-.modulos p {
-  font-size: 18px;
-  padding: 20px;
-}
-
-.modulos #dfmei-logo {
-  font-family: "Rosarivo", cursive;
-  font-style: italic;
-  font-size: 18px;
-  color: var(--dark);
-  align-self: center;
-}
-
-.modulos h3 {
-  font-size: 22px;
-}
-
-.modulos ul {
-  all: unset;
-  margin:0;
-  list-style: none;
-}
-
-.modulos ul li {
-  margin-top: 15px;
-  margin-bottom: 15px;
-}
-
-.modulos a {
-  margin-top: 10px;
-  margin-bottom: 30px;
-  color: var(--primary);
-  text-decoration: none;
-  text-transform: uppercase;
-  font-weight: 600;
-  align-self: center;
-  border: 3px solid var(--primary);
-  padding: 10px;
-  padding-left: 25px;
-  padding-right: 25px;
-  border-radius: 50px 50px 50px 50px;
-}
-
-.modulos a .link-internal-div {
-  display: flex;
-  align-items: center;
-}
-
-.modulos a .link-internal-div img {
-  width: 25px;
-  height: 25px;
-  padding-left: 6px;
-}
-
-.bonus {
-  background-color: var(--dark);
-  color: var(--light);
-  padding: 20px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.bonus p:first-child {
-  font-size: 24px;
-}
-
-.bonus h2 {
-  font-size: 30px;
-  text-align: center;
-  color: var(--secondary);
-  display: flex;
-  flex-direction: column;
-  padding-bottom: 20px;
-}
-
-.bonus p {
-  font-size: 18px;
-}
-
-.bonus .div-planilhas {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-}
-
-.bonus .div-planilhas .div-cada-planilha img {
-  width: 100px;
-  height: 100px;
-}
-
-.bonus .div-planilhas .div-cada-planilha {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.bonus h3 {
-  font-size: 25px;
-  text-align: center;
-  color: var(--secondary);
-}
-
-.bonus .temporizador p {
-  font-size: 21px;
-}
-
-.bonus .temporizador #tempo-restante {
-  font-size: 30px;
-  text-align: center;
-}
-
-.bonus a {
-  margin-top: 20px;
-  margin-bottom: 20px;
-  color: var(--secondary);
-  text-decoration: none;
-  text-transform: uppercase;
-  font-weight: 600;
-  align-self: center;
-  border: 3px solid var(--secondary);
-  padding: 10px;
-  padding-left: 25px;
-  padding-right: 25px;
-  border-radius: 50px 50px 50px 50px;
-}
-
-.bonus a .link-internal-div {
-  display: flex;
-  align-items: center;
-}
-
-.bonus a .link-internal-div img {
-  width: 25px;
-  height: 25px;
-  padding-left: 6px;
 }
 
 .quem-sou-eu {
@@ -343,8 +130,8 @@ header h1 {
 
 .quem-sou-eu h2 {
   text-align: center;
-  font-size: 35px;
-  color: var(--dark);
+  font-size: 30px;
+  color: var(--primary);
 }
 
 .quem-sou-eu img {
@@ -362,36 +149,229 @@ header h1 {
   line-height: 1.5em;
 }
 
-.ancorar-valor {
-  padding: 20px;
+.metodo {
   background-color: var(--dark);
+  padding: 10px;
 }
 
-.ancorar-valor h2 {
+.metodo h2 {
   text-align: center;
-  color: var(--secondary);
   font-size: 25px;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: var(--secondary)
 }
 
-.ancorar-valor img {
-  width: calc(98vw - 20px)
+.metodo img {
+  width: calc(100vw - 20px);
 }
 
-.ancorar-valor p, .ancorar-valor li {
+.metodo h3 {
   color: var(--light);
-  font-size: 21px;
-  line-height: 1.8em;
 }
 
-.ancorar-valor ul {
+.metodo p {
+  color: var(--light);
+}
+
+.lista-quebra-objecoes {
+  padding: 20px;
+}
+
+.lista-quebra-objecoes h2 {
+  text-align: center;
+  font-size: 27px;
+  color: var(--primary);
+}
+
+.lista-quebra-objecoes p, .lista-quebra-objecoes li {
+  font-size: large;
+  line-height: 1.5em;
+}
+
+.lista-quebra-objecoes ul {
   margin-left: 0;
   padding-left: 20px;
   list-style: none;
 }
 
-.ancorar-valor ul li:before {
+.lista-quebra-objecoes ul li:before {
   content: "✓";
   padding-right: 5px;
+}
+
+.apresencacao-curso {
+  background-color: var(--dark);
+  padding: 20px;
+}
+
+.apresencacao-curso h2 {
+  font-size: 25px;
+  text-align: center;
+  color: var(--light);
+}
+
+.apresencacao-curso p {
+  color: var(--light);
+  font-size: large;
+  line-height: 1.5em;
+}
+
+.detalhes-curso {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.detalhes-curso h2 {
+  font-size: 22px;
+  color: var(--primary);
+  align-self: center;
+}
+
+.detalhes-curso #dfmei-logo {
+  font-family: "Rosarivo", cursive;
+  font-style: italic;
+  font-size: 18px;
+  color: var(--dark);
+  align-self: center;
+}
+
+.detalhes-curso h3 {
+  font-size: 22px;
+}
+
+.topico-curso {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 10px;
+}
+
+.topico-curso img {
+  width: 20vw;
+  height: 20vw;
+}
+
+.detalhes-curso ul {
+  all: unset;
+  margin:0;
+  list-style: none;
+}
+
+.detalhes-curso ul li {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.detalhes-curso a {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: var(--primary);
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 600;
+  align-self: center;
+  border: 3px solid var(--primary);
+  padding: 10px;
+  padding-left: 25px;
+  padding-right: 25px;
+  border-radius: 50px 50px 50px 50px;
+}
+
+.detalhes-curso a .link-internal-div {
+  display: flex;
+  align-items: center;
+}
+
+.detalhes-curso a .link-internal-div img {
+  width: 25px;
+  height: 25px;
+  padding-left: 6px;
+}
+
+.outros-entregaveis {
+  background-color: var(--dark);
+  color: var(--light);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.outros-entregaveis p:first-child {
+  font-size: 20px;
+}
+
+.outros-entregaveis h2 {
+  font-size: 25px;
+  text-align: center;
+  color: var(--secondary);
+  display: flex;
+  flex-direction: column;
+}
+
+.outros-entregaveis .div-planilhas {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.outros-entregaveis .div-planilhas .div-cada-planilha img {
+  width: 100px;
+  height: 100px;
+}
+
+.outros-entregaveis .div-planilhas .div-cada-planilha {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.outros-entregaveis a {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: var(--secondary);
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 600;
+  align-self: center;
+  border: 3px solid var(--secondary);
+  padding: 10px;
+  padding-left: 25px;
+  padding-right: 25px;
+  border-radius: 50px 50px 50px 50px;
+}
+
+.outros-entregaveis a .link-internal-div {
+  display: flex;
+  align-items: center;
+}
+
+.outros-entregaveis a .link-internal-div img {
+  width: 25px;
+  height: 25px;
+  padding-left: 6px;
+}
+
+.ancorar-valor {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ancorar-valor h2 {
+  text-align: center;
+  color: var(--primary);
+  font-size: 22px;
+}
+
+.ancorar-valor img {
+  width: calc(98vw - 20px)
 }
 
 #oferta {
@@ -399,6 +379,8 @@ header h1 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: var(--dark);
+  color: var(--light);
   padding: 10px 0;
 }
 
@@ -431,33 +413,16 @@ header h1 {
   align-self: center;
 }
 
-#oferta #tabela-ancoragem {
-  padding: 10px;
-  width: calc(100vw - 20px);
-  
-}
-
-#oferta .lembrando {
-  padding: 20px;
-}
-
-#oferta .lembrando p {
-  font-size: 21px;
-}
-
-#oferta .lembrando #tempo-restante-2 {
-  text-align: center;
-  font-size: 25px;
-}
 
 #oferta a {
-  margin-bottom: 35px;
-  color: var(--primary);
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: var(--secondary);
   text-decoration: none;
   text-transform: uppercase;
   font-weight: 600;
   align-self: center;
-  border: 3px solid var(--primary);
+  border: 3px solid var(--secondary);
   padding: 10px;
   padding-left: 25px;
   padding-right: 25px;
@@ -475,6 +440,30 @@ header h1 {
   padding-left: 6px;
 }
 
+.por-dentro-do-curso {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 0 20px;
+}
+
+.por-dentro-do-curso h2 {
+  color: var(--primary);
+  margin: 5px;
+}
+
+.por-dentro-do-curso p {
+  margin: 0 0 20px 0;
+}
+
+.por-dentro-do-curso iframe {
+  width: 98vw;
+  height: 55vw;
+}
+
 .garantia {
   padding: 20px;
   background-color: var(--dark);
@@ -482,14 +471,6 @@ header h1 {
   flex-direction: column;
   align-items: center;
   color: var(--light);
-}
-
-.garantia h3 {
-  font-size: 28px;
-}
-
-.garantia p {
-  font-size: 18px;
 }
 
 .garantia img {
@@ -541,13 +522,9 @@ header h1 {
 .mais-duvidas {
   display: flex;
   flex-direction: column;
-  padding: 30px 20px;
+  padding: 30px 10px;
   background-color: var(--dark);
   color: var(--light);
-}
-
-.mais-duvidas p {
-  font-size: 18px;
 }
 
 .mais-duvidas h2 {
@@ -561,15 +538,16 @@ header h1 {
   flex-direction: row;
   align-items: center;
   text-decoration: none;
-  border: 2px solid var(--secondary);
+  border: 2px solid green;
   border-radius: 100px;
   padding: 10px 20px;
+  background-color: green;
   color: var(--light);
-  font-size: 21px;
+  font-size: 18px;
 }
 
 .mais-duvidas img {
-  width: 40px;
+  width: 25px;
   padding: 0 40px 0px 25px;
 }
 
