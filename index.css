@@ -151,31 +151,33 @@ header h1 {
 
 .metodo p {
   font-size: 21px;
-  padding: 10px;
+  padding: 15px;
 }
 
-.lista-quebra-objecoes {
+.o-que-vai-aprender {
+  background-color: var(--dark);
   padding: 20px;
 }
 
-.lista-quebra-objecoes h2 {
+.o-que-vai-aprender h2 {
   text-align: center;
-  font-size: 27px;
-  color: var(--primary);
+  font-size: 25px;
+  color: var(--secondary);
 }
 
-.lista-quebra-objecoes p, .lista-quebra-objecoes li {
-  font-size: large;
-  line-height: 1.5em;
+.o-que-vai-aprender p, .o-que-vai-aprender li {
+  color: var(--light);
+  font-size: 21px;
+  line-height: 1.8em;
 }
 
-.lista-quebra-objecoes ul {
+.o-que-vai-aprender ul {
   margin-left: 0;
   padding-left: 20px;
   list-style: none;
 }
 
-.lista-quebra-objecoes ul li:before {
+.o-que-vai-aprender ul li:before {
   content: "✓";
   padding-right: 5px;
 }
