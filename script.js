@@ -24,7 +24,7 @@ function createTimer() {
   const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
   const seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
-  if (hours === 0 && minutes === 0 && seconds === 0) {
+  if (hours <= 0 && minutes <= 0 && seconds <= 0) {
     timerText.innerHTML = '0h 0m 0s - tempo esgotado';
     timerText2.innerHTML = '0h 0m 0s - tempo esgotado';
   }
